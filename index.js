@@ -8,7 +8,7 @@ app.get('/test',(req,res) => {
     res.json({msg: "works"})
 })
 
-app.use('/sol',route);
+app.use('/api',route);
 
 app.listen(PORT, function(e) {
   console.log(`Listening in ${PORT}`);

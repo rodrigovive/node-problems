@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const fileSystemRoute = require('./route/file-system');
-router.use('/file-system',fileSystemRoute);
+const solutionsRoute = require('./route/solution.router');
+router.use('/solution',solutionsRoute);
 
 module.exports = router;
